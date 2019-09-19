@@ -1,0 +1,204 @@
+body {
+    background: url('tester.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+    font-family: "Georgia";
+  }
+
+p {
+  font-size: 18px;
+  overflow: auto; 
+}
+
+h2 {
+  font-weight: 550;
+  padding-bottom: 1.5cm;
+}
+  
+section {
+    padding: 150px 0;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  letter-spacing: 2px;
+  font-family: "Georgia";
+
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+  text-shadow: 0 1px #fff;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  -moz-tab-size: 2; -o-tab-size: 2; tab-size: 2;
+  -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none;
+}
+
+
+
+
+form {
+  margin:0 auto;
+  width:459px;
+}
+
+
+input, textarea {
+width:  440px;
+height: 30px;
+background:#efefef;
+border: 1px solid #dedede;
+padding:  10px;
+margin-top: 3px;
+font-size:  18px;
+color:   #3a3a3a;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+}
+
+textarea {
+  height:215px;
+}
+
+input {
+  padding-bottom: 10px;
+}
+
+input:focus, textarea:focus {
+  border:1px solid #97d6eb;
+}
+
+#submit {
+  height: 50px
+}
+
+article {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+
+}
+
+.hold {
+  position: relative;
+  text-align: center;
+  width: 65%;
+  padding-bottom: 1.5cm;
+}
+
+.left-half  {
+  position: absolute;
+  left: 155px;
+  width: 30%;
+}
+
+.right-half {
+  position: absolute;
+  right: 155px;
+  width: 30%;
+}
+
+li  {
+  display: inline-block;
+}
+
+#navbarResponsive  {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#name {
+  font-family: "Garamond";
+  font-weight: bold;
+  font-size: 55px;
+  padding-top: 3cm;
+ 
+}
+
+#nameDiv {
+  transition-duration: 300ms;
+  transition-property: background;
+  transition-timing-function: ease-in;
+}
+
+
+
+#school {
+    font-weight: 300;
+    text-align: center;
+}
+
+#credentials  {
+  text-align: center;
+  color: gray;
+}
+
+#linkedin {
+  float: right;
+  padding-left: .5cm;
+  right: 150px;
+}
+
+#email  {
+  color: gray;
+  text-align: center;
+}
+
+#school2  {
+  padding-top: 50px;
+  font-weight: 300;
+  text-align: center;
+}
+
+#submit {
+  font: "Helvetica";
+  font-size: 14px;
+  color: #333333;
+  width: 93px;
+  display: block;
+  border: 1px solid #333333;
+  text-transform: uppercase;
+  font-weight: 700;
+  height: 44px;
+  line-height: 44px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  margin: 40px auto 20px;
+  background: none;
+  padding: 0px;
+  cursor: pointer;
+  text-align: center;
+  -o-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out; 
+  }
+
+  #submit:hover {
+    background: #333333;
+    color: #fff; 
+  }
+
+#attacharea {
+  height: 55px;
+}
+
+
+
+
+
+

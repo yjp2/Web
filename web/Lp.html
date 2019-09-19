@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="landPage.css">
+    <link rel="stylesheet" href="animate.css">
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jqueryBootStrap.js"></script>
+
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <title>Landing Page</title>
+
+    
+</head>
+
+
+<body>
+    <a href="./mainpg.html">
+
+        <button id="enterBtn" onclick="C:/Users/YJ/bootstrap/basic.html" class="btn btn-default centered animated shake">Welcome <img src="https://img.icons8.com/ios/25/000000/enter-2.png"></button>     
+
+    </a>
+
+    <script>
+           $(function() {
+      var animationName = 'animated shake';
+      var animationend = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+      $('enterBtn').on('click',function() {
+        
+        $('enterBtn').addClass(animationName).one(animationend,function() {
+          $(this).removeClass(animationName);
+        });
+      });
+    });
+    </script>
+</body>
+
+</html>

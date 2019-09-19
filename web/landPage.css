@@ -1,0 +1,63 @@
+body {
+    background: url('LandingPage.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+    font-family: "Georgia";
+  }
+
+
+  .centered {
+    position: fixed;
+    top: 5.5%;
+    left: 49.55%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+  }
+
+
+
+  #enterBtn {
+    font: "Helvetica";
+    font-size: 14px;
+    color: #333333;
+    width: 93px;
+    display: block;
+    border: 1px solid #333333;
+    text-transform: uppercase;
+    font-weight: 700;
+    height: 44px;
+    line-height: 44px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 40px auto 20px;
+    background: none;
+    padding: 0px;
+    cursor: pointer;
+    text-align: center;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out; 
+    }
+  
+    #enterBtn:hover {
+      background: #333333;
+      color: #fff; 
+    }
+
+    #enterBtn2 {
+      background: blur;
+      border-bottom: 2px solid black;
+      border-top: 2px solid black;
+      font-family: "palatino";
+      transition-duration: 150ms;
+      transition-property: background; 
+    }
+  
+    #enterBtn2:hover {
+      background: white;
+    }
